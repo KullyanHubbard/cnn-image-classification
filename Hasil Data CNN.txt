@@ -1,0 +1,42 @@
+Filter 32 / Kernel 3
+Hasil data :
+
+- Konfigurasi: FILTERS=32, KERNEL_SIZE=3, EPOCHS=25 BATCH_SIZE=32
+- Final train acc: 89.51%
+- Final val acc: 81.45%
+- class_indices: {'cats': 0, 'dogs': 1}
+- cat_or_dog_1.jpg -> prob=1.0000, pred=dogs
+- cat_or_dog_2.jpg -> prob=0.1363, pred=cats
+
+
+Filter 32 / Kernel 5
+Hasil data :
+
+- Konfigurasi: FILTERS=32, KERNEL_SIZE=5, EPOCHS=25 BATCH_SIZE=32
+- Final train acc: 90.82%
+- Final val acc: 78.80%
+- class_indices: {'cats': 0, 'dogs': 1}
+- cat_or_dog_1.jpg: prob=1.0000, pred=dogs
+- cat_or_dog_2.jpg: prob=0.0139, pred=cats
+
+
+Filter 64 / Kernel 3
+Hasil data :
+
+- Konfigurasi: FILTERS=64, KERNEL_SIZE=3, EPOCHS=25 BATCH_SIZE=32
+- Final train acc: 90.55%
+- Final val acc: 79.75%
+- class_indices: {'cats': 0, 'dogs': 1}
+- cat_or_dog_1.jpg: prob=1.0000, pred=dogs
+- cat_or_dog_2.jpg: prob=0.0075, pred=cats
+
+
+Filter 64 / Kernel 5
+Hasil data :
+
+- Konfigurasi: FILTERS=64, KERNEL_SIZE=5, EPOCHS=25, BATCH_SIZE=32
+- Final train acc: 89.71%
+- Final val acc: 75.50%
+- class_indices: {'cats': 0, 'dogs': 1}
+- cat_or_dog_1.jpg: prob=1.0000, pred=dogs
+- cat_or_dog_2.jpg: prob=0.0076, pred=cats
